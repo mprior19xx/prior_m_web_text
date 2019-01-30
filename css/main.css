@@ -11,11 +11,12 @@ body{
 /* Centered text */
 h1 {
   position: absolute;
-  top: 85%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   color:white;
   text-shadow: 2px 2px black;
+  width: 100%;
 	
   font-family: 'Rubik', sans-serif;
   font-size: 52px;

@@ -1,68 +1,149 @@
+/*PAGE LAYOUT*/
+body{
+	background-color: #FDF5E6;
+}
+
+#hero {
+  position: relative;
+  text-align: center;
+}
+
+/* Centered text */
+h1 {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+	
+  font-family: 'Rubik', sans-serif;
+  font-size: 52px;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
 #container{
 	margin:0 auto;
 }
 
-img{
-	padding: 15px;
+#site-img{
+	opacity: 0.75;
 }
+
+#site-img:hover{
+	opacity:1.0;
+}
+
 
 div{
 	text-align: center;
-	padding: 15px;
+	
+	width: 1200px;
 }
 
-h1{
-	justify-content: center;
-	font-family: 'Patua One', cursive;
-	font-size: 42px;
+section{
+	padding:15px;
 }
 
+#copy2{
+	display: flex;
+	padding-top: 15px;
+	box-shadow:0px 5px #888888;
+}
+
+#copy4{
+	display: flex;
+	flex-direction: row;
+	box-shadow:0px 5px #888888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FONT RULES
+font-family: 'Rubik', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+
+/*TEXT STYLING*/
 h2{
-	font-family: 'Patua One', cursive;
-	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	padding:10px;
+	font-weight: bold;
 }
 
 #copy1 p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
 	font-size: 18px;
+	box-shadow:0px 5px #888888;
+}
+#copy2 h2{
+	margin-left:15px;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: bold;
 }
 
 #copy2 ul li{
-font-family: 'Lato', sans-serif;
+	float: left;
+	text-align: left;
+	padding: 3px;
+	padding-left: 12px;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	line-height: 25px;
+}
 
+#copy3 h2{
+	font-size: 40px;
+	line-height: 40px;
 }
 
 #copy3 p{
-font-family: 'Lato', sans-serif;
+	padding-top:5px;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	line-height: 30px;
+	box-shadow:0px 5px #888888;
+}
 
+#trout{
+	font-size: 40px;
+	line-height: 30px;
 }
 
 #copy4 p{
-	padding: 15px;
-font-family: 'Lato', sans-serif;
+	margin-right: 15px;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
+	line-height: 20px;
+	box-shadow:0px 5px #888888;
 
 }
 
 
 a{
-	font-family: 'Raleway', sans-serif;
-	font-size: 14px;
-}
-
-#hero-img{
-	display:flex;
-	margin:0 auto;
-}
-
-#tray-img{
-	display:flex;
-	margin:0 auto;
-}
-
-#woods-img{
-	display:flex;
-	margin:0 auto;
+	font-family: 'Montserrat', sans-serif, itallic;
+	font-size: 10px;
+	font-weight: bold;
 }
